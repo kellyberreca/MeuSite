@@ -1,0 +1,23 @@
+.bg-primary{
+    background: #232023;
+}
+
+.bg-secondary{
+    background: #e4e4e4;
+}
+
+.bg-highlight{
+    background: #363636;
+}
+
+.bg-tertiary{
+    background: #d5d5d5;
+}
+
+.a-tx-white{
+    color: white;
+}
+
+.a-tx-white:hover{
+    color: #919191;
+}
