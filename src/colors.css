@@ -1,3 +1,6 @@
+/*Escolha as cores para os componentes*/
+
+/*1------cores de componentes e containers*/
 .bg-primary{
     background: #232023;
 }
@@ -14,10 +17,24 @@
     background: #d5d5d5;
 }
 
+/*2-------cores de link*/
 .a-tx-white{
     color: white;
 }
 
 .a-tx-white:hover{
     color: #919191;
+}
+
+/*3-------cores de botoes*/
+.btn-primary{
+    background-color: #a34ffa;
+}
+
+.btn-secondary{
+    background-color: #9Ac4fe;
+}
+
+.btn-tertiary{
+    background-color: #f5437c;
 }

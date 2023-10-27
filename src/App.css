@@ -47,3 +47,29 @@
 .mt-2{
   margin-top: 20px;
 }
+
+.card{
+  border-radius: 15px;
+  max-width: 300px;
+  border: 1px solid black;
+}
+
+.card-img{
+  width: 100%;
+}
+
+.card-label{
+  top: 50%;
+  left: 35%;
+  background-color: aliceblue;
+  padding:  5px 10px;
+  border-radius: 8px;
+}
+
+.pos-relative{
+  position: relative;
+}
+
+.pos-abs{
+  position: absolute;
+}
