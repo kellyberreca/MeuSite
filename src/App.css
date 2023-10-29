@@ -1,42 +1,75 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.navbar{
+  height: 60px;
+  z-index: 9;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.logo{
+  width: 30px;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar-brand{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 250px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.brand-name{
+  
+  margin-left: 10px;
 }
 
-.card {
-  padding: 2em;
+.brand-text{
+  font-size: 1.3em !important;
 }
 
-.read-the-docs {
-  color: #888;
+.brand-text:hover{
+  cursor: pointer;
+}
+
+.container{margin-left: 10%;margin-right: 10%;} .container-2{ margin-left: 15%; margin-right: 15%;}
+
+.navbar-actions{
+  min-width: 150px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-actions>a{
+  text-decoration: none;
+}
+
+.navbar-content{
+  display: flex;
+  justify-content: space-between;
+}
+
+.mt-2{
+  margin-top: 20px;
+}
+
+.card{
+  border-radius: 15px;
+  max-width: 300px;
+  border: 1px solid black;
+}
+
+.card-img{
+  width: 100%;
+}
+
+.card-label{
+  top: 50%;
+  left: 35%;
+  background-color: aliceblue;
+  padding:  5px 10px;
+  border-radius: 8px;
+}
+
+.pos-relative{
+  position: relative;
+}
+
+.pos-abs{
+  position: absolute;
 }
